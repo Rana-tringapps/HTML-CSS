@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+       *
+       body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding:5px;
+    width: 100vw;
+    height: 100vh;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 50px  1fr  100px;
+   
+    box-sizing: border-box;
+
+}
+
+.container div{
+    padding: 10px;
+  
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a3a3c2;
+    color: #000000;
+}
+
+
+}
+.feature{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+.feature1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.feature2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row-start:3 ;
+    grid-row-end:3 ;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: ;
+    color: #000000;
+}
+
+
+.content{
+    grid-row-start:4;
+    grid-row-end:4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9494b8;
+    color: #000000;
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="feature">feature</div>
+        <div class="feature1">feature1</div>
+        <div class="feature2">feature2</div>
+        <div class="signup">signup</div>
+       <div class="content">content</div>
+        
+    </div>
+    
+</body>
+</html>

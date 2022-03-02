@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: contain;
+}
+.flex-container{
+    
+    background-color:white;
+    height: 100vh;
+    
+    display:flex;
+    flex-direction: column;
+    background-size: contain;
+    background-position: center;
+}
+.header{
+    height:25vh;
+    background-color: black;
+    color: gray;
+    text-align: center; 
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+.main{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+  height: 75vh;
+    margin-bottom: 40px;
+    font-size: 10px;
+    background-color: lightslategray;
+}
+.left{
+    flex:33%;
+    text-align: center;
+    background-color: yellow;
+    padding-top: 75px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.right{
+    flex:33%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: violet;
+    padding-top: 75px;
+}
+.middle{
+    flex:33%;
+    text-align: center;
+    background-color: tomato;
+     padding-top: 75px;
+}
+.signup{
+    flex:100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: lightskyblue;
+    padding-top: 75px;
+    
+}
+
+}
+.content
+{
+    text-align: center;
+    font-size: 7px;
+    background-color: blue;
+    
+}
+.content h1{
+	text-align:center;
+	display:flex;
+    height: 25vh;;
+	justify-content:center;
+	}
+    .naviat{
+        height:33px;
+background-color: blue;
+    }
+
+    nav{
+        background-image: url(image.svg);
+        background-position: -278px 143px ;
+        background-size: auto;
+height: 30px;
+width: 184px;
+float: right;
+    }
+@media screen and (max-width:768px) 
+{
+   .right,.left,.middle,.signup
+   {
+       flex: 100%;
+    }
+}
+@media screen and (max-width:768px) and (min-width: 481px) 
+    {
+        .right,.left,.middle,.signup
+        {
+            flex: 50%;
+        }
+    }
+@media screen and (max-width:480px) and (min-width:320px)
+    {
+            .right,.left,.middle,.signup
+            {
+                flex: 100%;
+            }
+        }
+               
