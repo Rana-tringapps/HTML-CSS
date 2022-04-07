@@ -1,5 +1,5 @@
 var myTabs = document.querySelectorAll(".tab");
-for (let i = 0; i < myTabs.length; i++) {
+for of(let i = 0; i < myTabs.length; i++) {
     myTabs[i].addEventListener("click", function() {
         var cont = myTabs[i].nextElementSibling;
         if (cont.style.maxHeight) {
