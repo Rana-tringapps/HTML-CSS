@@ -42,11 +42,9 @@
 .header {
     text-align: center;
     font-size: 30px;
+     color: #33adff;
 }
 
-.header {
-    color: #33adff;
-}
 @media screen and (min-width:481px) and (max-width:768px){
     .container{
         flex: 50%;
