@@ -17,7 +17,7 @@ function validate() {
         isValid = false;
         document.getElementById("feedbackValidationError").classList.remove("hide");
     } else {
-        isValid = true;
+        let isValid = true;
         if (!document.getElementById("feedbackValidationError").classList.contains("hide"))
             document.getElementById("feedbackValidationError").classList.add("hide");
     }
