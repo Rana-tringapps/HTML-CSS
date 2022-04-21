@@ -12,12 +12,12 @@ function onFeedbackSubmit() {
 }
 
 function validate() {
-    const isValid = true;
+   isValid = true;
     if (document.getElementById("feedback").value == ""){
         isValid = false;
         document.getElementById("feedbackValidationError").classList.remove("hide");
     } else {
-        const isValid = true;
+     isValid = true;
         if (!document.getElementById("feedbackValidationError").classList.contains("hide"))
             document.getElementById("feedbackValidationError").classList.add("hide");
     }
